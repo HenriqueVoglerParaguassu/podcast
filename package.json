@@ -1,0 +1,7 @@
+{
+  "name": "podcast",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Henrique Paraguassu <henriquevoglerparaguassu@gmail.com>",
+  "license": "MIT"
+}
