@@ -1,0 +1,89 @@
+:root {
+  --fonte: #ff7300;
+  --fundo: #16161d;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--fundo);
+  color: var(--fonte);
+  height: 50px;
+  /* padding: 10px; */
+  font-size: 18px;
+}
+
+.login {
+  color: var(--fonte);
+  border: 2px solid var(--fonte);
+  border-radius: 8px;
+  transition: all 0.3s;
+  height: 80%;
+  margin-right: 10px;
+  width: fit-content;
+}
+
+.login > a {
+  text-decoration: none;
+  color: var(--fonte);
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  transition: all 0.3s;
+}
+
+.login > a:hover {
+  text-decoration: none;
+  color: var(--fundo) !important;
+  background-color: var(--fonte);
+  /* padding: 10px; */
+  transition: all 0.3s;
+}
+
+.items {
+  list-style-type: none;
+  display: flex;
+  width: 60%;
+  min-width: 400px;
+}
+
+.items > a {
+  text-decoration: none;
+  color: var(--fonte);
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  min-width: 120px;
+  width: max-content;
+  padding: 5px;
+  margin-right: 2px;
+  transition: all 0.3s;
+}
+
+.items > a:hover {
+  background-color: var(--fonte);
+  color: var(--fundo);
+  border-radius: 10px 10px 0 0;
+  transition: all 0.3s;
+}
+
+.items > img {
+  height: 45px;
+  padding: 10px;
+}
+
+.active {
+  background-color: var(--fonte) !important;
+  color: var(--fundo) !important;
+  border-radius: 10px 10px 0 0;
+}
